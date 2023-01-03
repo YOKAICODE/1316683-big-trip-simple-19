@@ -34,10 +34,6 @@ function createTemplate() {
 }
 
 export default class ListItemView {
-  constructor(event) {
-    this.event = event;
-  }
-
   getTemplate() {
     return createTemplate();
   }
